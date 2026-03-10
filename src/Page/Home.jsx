@@ -1,4 +1,4 @@
-import Carousel from "./carousel";
+import Carousel from "./Carousel";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Rooms from "./Rooms";
