@@ -1,6 +1,7 @@
 // import { Outlet } from "react-router";
 
-import Footer from "../frontsection/footer";
+import Footer from "../frontsection/Footer";
+
 import Navber from "./Navber";
 
 
