@@ -3,12 +3,14 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { User, LayoutDashboard, CalendarDays } from "lucide-react";
-import useCartContext from "../hooks/usebookingcart";
-import useAuthContext from "../hooks/useAuthContext";
+
+import useAuthContext from "../Hooks/UseAuthcontext";
+import usebookingCartContext from "../Hooks/usebookingcartContext ";
+// import useAuthContext from "../hooks/useAuthContext";
 
 const Nave = ({ sidebarOpen }) => {
   const { user, logoutUser } = useAuthContext();
-  const { cart } = useCartContext();
+  const { cart } = usebookingCartContext();
   const [profileOpen, setProfileOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
 
