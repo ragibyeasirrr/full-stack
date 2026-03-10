@@ -1,14 +1,16 @@
 
 
 import { Link } from "react-router-dom";
-import useAuthContext from "../hooks/useAuthContext";
-import useCartContext from "../hooks/usebookingcart";
+// import useAuthContext from "../hooks/useAuthContext";
+
 import { User, Bed, CalendarDays, Menu, X } from "lucide-react";
 import { useState } from "react";
+import useAuthContext from "../Hooks/UseAuthcontext";
+import usebookingCartContext from "../Hooks/usebookingcartContext ";
 
 const Navbar = () => {
   const { user, logoutUser } = useAuthContext();
-  const { cart } = useCartContext();
+  const { cart } = usebookingCartContext();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
