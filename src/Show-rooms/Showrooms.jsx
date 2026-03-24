@@ -55,7 +55,7 @@ const Showrooms = () => {
 
   return (
     <div className="max-w-full mx-auto px-2 py-8">
-      <h1 className="text-3xl font-bold mb-8">Shop Our Products</h1>
+      <h1 className="text-3xl font-bold mb-8">Book A Room</h1>
       <div className="flex flex-col lg:flex-row gap-4">
         <div className="w-full lg:w-1/4 flex-shrink-0">
           <FilterSection

@@ -26,7 +26,7 @@ const RoomImageGallery = ({ images, Roomnum }) => {
       >
         {displayImages.map((imgObj, index) => (
           <SwiperSlide key={index}>
-            {/* CHANGED HERE */}
+           
             <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] bg-base-100">
               <img
                 src={imgObj?.image || defaultImage}
