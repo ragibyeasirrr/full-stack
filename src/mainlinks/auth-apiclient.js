@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const authApiClient = axios.create({
-  baseURL: "https://final-dusky-seven.vercel.app/",
+  baseURL: "https://final-dusky-seven.vercel.app",
 });
 
 export default authApiClient;
