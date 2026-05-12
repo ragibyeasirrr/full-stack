@@ -21,7 +21,7 @@ const Showrooms = () => {
   useEffect(() => {
     apiClient.get("/room_facility/")
       .then(res => setFacilities(res.data))
-      .catch(err => console.log(err));
+      .catch(err => console.log(err));  
   }, []);
 
   const handleFacilityChange = (id) => {

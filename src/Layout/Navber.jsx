@@ -76,12 +76,29 @@ const Navbar = () => {
           </>
         )}
 
-        {!user && (
+        {/* {!user && (
           <div className="flex gap-3">
             <Link to="/login" className="btn btn-outline btn-warning">Login</Link>
             <Link to="/register" className="btn btn-warning text-white">Register</Link>
           </div>
-        )}
+        )} */}
+        {!user && (
+  <div className="flex gap-2 sm:gap-3 items-center">
+    <Link
+      to="/login"
+      className="btn btn-outline btn-warning btn-sm sm:btn-md"
+    >
+      Login
+    </Link>
+
+    <Link
+      to="/register"
+      className="btn btn-warning text-white btn-sm sm:btn-md"
+    >
+      Register
+    </Link>
+  </div>
+)}
 
         <div className="lg:hidden">
           <button

@@ -83,10 +83,10 @@ const FilterSection = ({
               {facility.name}
             </label>
           ))}
-
+                   
         </div>
       </div>
-
+             
     
       <div className="bg-white p-5 rounded-xl shadow-md border">
         <label className="block text-sm font-semibold text-gray-700 mb-3">

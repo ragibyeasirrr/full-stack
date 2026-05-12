@@ -57,7 +57,7 @@ const useAuth = () => {
         headers: {
           Authorization: `JWT ${authTokens?.access}`,
         },
-      });
+      });  
     } catch (error) {
       return handleAPIError(error);
     }
